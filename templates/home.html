@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <div class="container">
+        <h1>Bienvenido a nuestra tienda de jabones</h1>
+        <p>Explora nuestros productos y encuentra lo que más te gusta.</p>
+       <a href="{% url 'listar_productos' %}" class="btn btn-primary">Ver Productos</a>
+    </div>
+{% endblock %}
+ 
